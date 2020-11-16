@@ -25,6 +25,7 @@ class PageController
 
     /**
      * @route("/age", name="age_page")
+     * @param Request $request
      */
     public function age(Request $request){
 
