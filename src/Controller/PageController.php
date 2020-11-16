@@ -21,4 +21,12 @@ class PageController
       var_dump("au mon joli blog");
         die;
     }
+
+    /**
+     * @route("/age", name="age_page")
+     */
+    public function age(){
+        var_dump("test");
+        die;
+    }
 }
