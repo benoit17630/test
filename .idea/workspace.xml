@@ -179,7 +179,9 @@
       <updated>1605266873512</updated>
       <workItem from="1605266874522" duration="4546000" />
       <workItem from="1605276138701" duration="6196000" />
-      <workItem from="1605516427519" duration="2887000" />
+      <workItem from="1605516427519" duration="5988000" />
+      <workItem from="1605523194884" duration="85000" />
+      <workItem from="1605524422221" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="ajout age">
       <created>1605518458697</created>
@@ -195,7 +197,35 @@
       <option name="project" value="LOCAL" />
       <updated>1605519229088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout age">
+      <created>1605519471519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605519471519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ajout age">
+      <created>1605519608389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605519608389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout age">
+      <created>1605520082089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605520082089</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajout age">
+      <created>1605521188530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605521188530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +241,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout age" />
@@ -225,6 +256,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="183" key="#PHP/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605274525718" />
+    <state x="741" y="282" key="FileChooserDialogImpl" timestamp="1605523052269">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="741" y="282" key="FileChooserDialogImpl/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605523052269" />
     <state x="746" y="263" key="NewPhpClassDialog" timestamp="1605280288196">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -237,5 +272,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="185" key="SettingsEditor/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605516509945" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605520088918">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605520088918" />
   </component>
 </project>
