@@ -30,7 +30,8 @@ class PageController
     public function age(Request $request){
 
        $age= $request->query->get('age');
-
+       $nom = $request->query->get('name');// je creer la variable $nom et je recupere le name dans l url
+        var_dump($nom);
         var_dump($age);
         die;
     }
