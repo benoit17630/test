@@ -12,7 +12,7 @@ class PageController
      * *@Route("/contact",name="page_contact")
      */
     public function contact(){
-        var_dump("affiche du texte");
+        var_dump("affichage du texte");
         die;
     }
     /**
