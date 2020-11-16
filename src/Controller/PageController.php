@@ -3,6 +3,7 @@
 
 namespace App\Controller;
 
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 class PageController
@@ -25,8 +26,11 @@ class PageController
     /**
      * @route("/age", name="age_page")
      */
-    public function age(){
-        var_dump("test");
+    public function age(Request $request){
+
+       $age= $request->query->get('age');
+
+        var_dump($age);
         die;
     }
 }
