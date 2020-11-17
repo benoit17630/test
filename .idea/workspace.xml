@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="modif du nom de la metode ArticleShow par Articles" />
+    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="ajout de wildcard a la route article">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +183,7 @@
       <workItem from="1605516427519" duration="5988000" />
       <workItem from="1605523194884" duration="85000" />
       <workItem from="1605524422221" duration="3375000" />
-      <workItem from="1605604671998" duration="2303000" />
+      <workItem from="1605604671998" duration="3170000" />
     </task>
     <task id="LOCAL-00001" summary="ajout age">
       <created>1605518458697</created>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605606453557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajout de wildcard a la route article">
+      <created>1605607288783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605607288783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +278,8 @@
     <MESSAGE value="ajout de la page poker" />
     <MESSAGE value="ajout de la page article avec id dans l url" />
     <MESSAGE value="modif du nom de la metode ArticleShow par Articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif du nom de la metode ArticleShow par Articles" />
+    <MESSAGE value="ajout de wildcard a la route article" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de wildcard a la route article" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="196" key="#CLI_Interpreters" timestamp="1605274521641">
@@ -295,9 +306,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="185" key="SettingsEditor/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605516509945" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605606459788">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605607294326">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605606459788" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605607294326" />
   </component>
 </project>

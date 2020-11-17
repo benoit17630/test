@@ -57,7 +57,7 @@ class PageController
      */
     //je cree une metode article show pour afficher mon article avec un id
     public function Articles(Request $request){
-      $ArticleId = $request->get("id");// je recupere l id dans l adresse url qui est entree
+      $articleId = $request->get("id");// je recupere l id dans l adresse url qui est entree
         $articles = [
             1 => 'Article 1',
             2 => "Article 2",
@@ -68,6 +68,6 @@ class PageController
         ];
 
         //j affiche mon article
-        return new  Response('<h1>'.$articles[$ArticleId] .'</h1> ');
+        return new  Response('<h1>'.$articles[$articleId] .'</h1> ');
     }
 }
