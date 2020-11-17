@@ -4,6 +4,7 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class PageController
@@ -45,7 +46,29 @@ class PageController
         if($age >=18){
             die( "tu peut aceder au jeu de poker");//si plus de 18 ans j afiche se message
         }else{
-            die("tu na pas l age pour jouer");//si moin de 18ans se message
+            die("tu na pas l age pour jouer");//si moins de 18ans se message
         }
+    }
+
+    /**
+     * @Route ("/article" , name="page_article") je cree la page article
+     * @param Request $request
+     * @return Response
+     */
+    //je cree une metode article show pour afficher mon article avec un id
+    public function ArticleShow(Request $request){
+      $ArticleId = $request->get("id");// je recupere l id dans l adresse url qui est entree
+        $articles = [
+            1 => 'Article 1',
+            2 => "Article 2",
+            3 => "Article 3",
+            4 => 'Article 4',
+            5 => "Article 5",
+            6 => "Article 6",
+        ];
+        // je cree un article avec une nouvelle response
+        $article= new  Response('<h1>'.$articles[$ArticleId] .'</h1> ');
+        //j affiche mon article
+        return $article;
     }
 }
