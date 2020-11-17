@@ -51,7 +51,7 @@ class PageController
     }
 
     /**
-     * @Route ("/article" , name="page_article") je cree la page article
+     * @Route ("/article/{id}" , name="page_article") je cree la page article
      * @param Request $request
      * @return Response
      */
