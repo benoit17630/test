@@ -51,13 +51,13 @@ class PageController
     }
 
     /**
-     * @Route ("/article/{id}" , name="page_article") je cree la page article
-     * @param Request $request
+     * @Route ("/article/{id}" , name="page_article") je cree la page article avec une wildcard id
+     * @param $id
      * @return Response
      */
-    //je cree une metode article show pour afficher mon article avec un id
-    public function Articles(Request $request){
-      $articleid = $request->get("id");// je recupere l id dans l adresse url qui est entree
+    //je cree une metode articles  pour afficher mon article avec un id
+    public function Articles($id){
+
         $articles = [
             1 => 'Article 1',
             2 => "Article 2",
@@ -68,6 +68,6 @@ class PageController
         ];
 
         //j affiche mon article
-        return new  Response('<h1>'.$articles[$articleid] .'</h1> ');
+        return new  Response('<h1>'.$articles[$id] .'</h1> ');
     }
 }

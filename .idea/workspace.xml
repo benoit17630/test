@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="ajout de wildcard a la route article">
+    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="modif nom de variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
     </list>
@@ -183,7 +183,7 @@
       <workItem from="1605516427519" duration="5988000" />
       <workItem from="1605523194884" duration="85000" />
       <workItem from="1605524422221" duration="3375000" />
-      <workItem from="1605604671998" duration="3170000" />
+      <workItem from="1605604671998" duration="5111000" />
     </task>
     <task id="LOCAL-00001" summary="ajout age">
       <created>1605518458697</created>
@@ -255,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605607288783</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modif nom de variable">
+      <created>1605607886268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605607886268</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modif nom de variable">
+      <created>1605607926450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605607926450</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +293,8 @@
     <MESSAGE value="ajout de la page article avec id dans l url" />
     <MESSAGE value="modif du nom de la metode ArticleShow par Articles" />
     <MESSAGE value="ajout de wildcard a la route article" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de wildcard a la route article" />
+    <MESSAGE value="modif nom de variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif nom de variable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="196" key="#CLI_Interpreters" timestamp="1605274521641">
@@ -306,9 +321,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="185" key="SettingsEditor/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605516509945" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605607294326">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605607935845">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605607294326" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605607935845" />
   </component>
 </project>
