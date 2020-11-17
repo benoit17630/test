@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="ajout de la page poker">
+    <list default="true" id="d9e62160-e22f-4136-9d0e-df47e2f2600a" name="Default Changelist" comment="ajout de la page article avec id dans l url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
     </list>
@@ -182,7 +182,7 @@
       <workItem from="1605516427519" duration="5988000" />
       <workItem from="1605523194884" duration="85000" />
       <workItem from="1605524422221" duration="3375000" />
-      <workItem from="1605604671998" duration="958000" />
+      <workItem from="1605604671998" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="ajout age">
       <created>1605518458697</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605528493792</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajout de la page article avec id dans l url">
+      <created>1605605855477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605605855477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout age" />
     <MESSAGE value="ajout de la page poker" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de la page poker" />
+    <MESSAGE value="ajout de la page article avec id dans l url" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de la page article avec id dans l url" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="196" key="#CLI_Interpreters" timestamp="1605274521641">
@@ -281,9 +289,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="185" key="SettingsEditor/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605516509945" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605528505934">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605605876025">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605528505934" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605605876025" />
   </component>
 </project>
